@@ -4,7 +4,7 @@
 
 
 
-<img height="250" width="480" src="mvc1.PNG" align="left" /> <img height="250" width="490" src="mvc2.PNG" align="right"/>
+<img height="250" width="400" src="mvc1.PNG" align="left" /> <img height="250" width="400" src="mvc2.PNG" align="right"/>
 
 <img height="250" width="480" src="mvc3.PNG" align="left" /> <img height="250" width="490" src="mvc4.PNG" align="right"/>
 
