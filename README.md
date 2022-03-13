@@ -6,9 +6,9 @@
 
 <img height="200" width="380" src="mvc1.PNG" align="left" />  <img height="200" width="380" src="mvc2.PNG" align="right"/>
 
-<img height="250" width="480" src="mvc3.PNG" align="left" /> <img height="250" width="430" src="mvc4.PNG" align="right"/>
+<img height="200" width="380" src="mvc3.PNG" align="left" /> <img height="200" width="330" src="mvc4.PNG" align="right"/>
 
-<img height="250" width="480" src="mvc5.PNG" align="left" /> <img height="250" width="430" src="mvc6.PNG" align="right"/>
+<img height="200" width="380" src="mvc5.PNG" align="left" /> <img height="200" width="330" src="mvc6.PNG" align="right"/>
 
 
 
