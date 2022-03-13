@@ -1,0 +1,23 @@
+﻿@using MvcCV.Models.Entity
+@model List<TBLHOBİLERİM>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>Hobi Düzenleme Sayfası</h2>
+<br />
+<form method="post">
+    @foreach (var item in Model)
+    {
+        <label>Açıklama 1</label>
+        <textarea rows="4" class="form-control" name="Aciklama1">@item.Aciklama1</textarea>
+        <label>Açıklama 2</label>
+        <textarea rows="4" class="form-control" name="Aciklama2">@item.Aciklama2</textarea>
+        <label>Açıklama 3</label>
+        <textarea rows="4" class="form-control" name="Aciklama3">@item.Aciklama3</textarea>
+
+    }
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+</form>

@@ -1,0 +1,62 @@
+﻿@using MvcCV.Models.Entity;
+@model List<TBLILETISIM>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- /.col -->
+                <div class="col-md-12">
+                    <div class="card">
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <div class="tab-pane" id="timeline">
+                                <!-- The timeline -->
+                                <div class="timeline timeline-inverse">
+                                    @foreach (var item in Model)
+                                    {
+                                        <div class="time-label">
+                                            <span class="bg-success">
+                                                @(((DateTime)item.Tarih).ToString("dd-MM-yyyy"))
+                                            </span>
+                                        </div>
+                                        <!-- /.timeline-label -->
+                                        <div>
+                                            <i class="fas fa-comments bg-warning"></i>
+                                            <div class="timeline-item">
+                                                <span class="time"><i class="far fa-clock"></i> @item.Mail</span>
+                                                <h3 class="timeline-header"><a href="#">@item.Adsoyad</a> @item.Konu</h3>
+                                                <div class="timeline-body">
+                                                    @item.Mesaj
+                                                    <br />
+                                                    <br />
+                                                    <a href="/İletisim/İletisimSil/@item.ID" class="btn btn-danger">Sil</a>
+                                                    <a href="mailto:@item.Mail" class="btn btn-success">Mail Gönder</a>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.tab-content
+                                                     <button class="btn btn-success">Güncelle</button>
+                                            <a href="/Sertifika/SertifikaSil/@ViewBag.d" class="btn btn-danger">Sil</a>
+
+                            -->
+                    </div><!-- /.card-body -->
+                </div>
+                <!-- /.nav-tabs-custom -->
+            </div>
+            <!-- /.col -->
+        </div>
+    </section>
+</body>
+</html>

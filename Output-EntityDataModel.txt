@@ -1,0 +1,20 @@
+﻿The model was generated with warnings or errors.Model1.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
+Loading metadata from the database took 00:00:01.1176084.
+Generating the model took 00:00:00.8310574.
+The model was generated with warnings or errors.Model1.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
+Loading metadata from the database took 00:00:00.8644508.
+Generating the model took 00:00:00.6046983.
+Generated model file: Model1.edmx.
+Loading metadata from the database took 00:00:01.0201381.
+Generating the model took 00:00:00.9319563.
+The model was generated with warnings or errors.Model1.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
+Loading metadata from the database took 00:00:00.6313699.
+Generating the model took 00:00:00.4687829.
+The model was generated with warnings or errors.Model1.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
+Loading metadata from the database took 00:00:00.6612434.
+Generating the model took 00:00:00.4435606.
+Added the connection string to the Web.Config file.
+Writing the .edmx file took 00:00:00.0012373.
+Generated model file: Model1.edmx.
+Loading metadata from the database took 00:00:00.6313492.
+Generating the model took 00:00:00.4145144.
